@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Transform m_CeilingCheck;
     [SerializeField] private Transform m_SpawnPoint;
     [SerializeField] private Collider2D m_CrouchDisableCollider;
+    [SerializeField] private AudioClip jumpSound;
 
     private const float k_GroundedRadius = .03f;
     private const float k_CeilingRadius = .03f;
@@ -227,6 +228,9 @@ public class PlayerController : MonoBehaviour
             m_Grounded = false;
             m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
             state = State.jumping;
+
+            //Âm thanh khi nhảy
+            AudioController.Instance.PlayOneShot(jumpSound);
         }
     }
 

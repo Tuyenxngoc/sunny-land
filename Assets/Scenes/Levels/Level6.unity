@@ -10859,7 +10859,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2029250250}
         m_TargetAssemblyTypeName: ExitGamePanel, Assembly-CSharp
-        m_MethodName: ShowPanel
+        m_MethodName: ShowExitPanel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -12310,7 +12310,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2029250250}
         m_TargetAssemblyTypeName: ExitGamePanel, Assembly-CSharp
-        m_MethodName: ShowPanel
+        m_MethodName: ShowExitPanel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -13115,7 +13115,7 @@ Transform:
   m_GameObject: {fileID: 1605181661}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -40.360027, y: -4.71999, z: -10}
+  m_LocalPosition: {x: -42.125, y: -4.71999, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

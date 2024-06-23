@@ -7,6 +7,7 @@ public class Frog : Enemy
     public float jumpDelay = 4f;   // Độ trễ giữa các lần nhảy
     public float sightRange = 5f; // Phạm vi tầm nhìn của ếch
     public float maxJumpDistance = 3f; // Khoảng cách tối đa mà ếch có thể nhảy
+    public AudioClip frogSound;
 
     private bool m_Grounded = false;
     private bool m_PlayerInSight = false;
@@ -40,6 +41,9 @@ public class Frog : Enemy
             HandleMovement();
             m_JumpTimer = 0f;
             m_Grounded = false;
+
+            // Phát âm thanh tiếng ếch
+            AudioController.Instance.PlayOneShot(frogSound);
         }
     }
 

@@ -1,12 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Workspace\\Csharp\\Sunny Land\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\LapTrinhGame\\Sunny Land\\Sunny Land\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{63B4D673-65FE-5AC5-AC78-787900DF11EB}|Assembly-CSharp.csproj|d:\\laptrinhgame\\sunny land\\sunny land\\assets\\scripts\\game\\volumecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63B4D673-65FE-5AC5-AC78-787900DF11EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\volumecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63B4D673-65FE-5AC5-AC78-787900DF11EB}|Assembly-CSharp.csproj|d:\\laptrinhgame\\sunny land\\sunny land\\assets\\scripts\\enemy\\chasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63B4D673-65FE-5AC5-AC78-787900DF11EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\chasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VolumeController.cs",
+              "DocumentMoniker": "D:\\LapTrinhGame\\Sunny Land\\Sunny Land\\Assets\\Scripts\\Game\\VolumeController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\VolumeController.cs",
+              "ToolTip": "D:\\LapTrinhGame\\Sunny Land\\Sunny Land\\Assets\\Scripts\\Game\\VolumeController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Game\\VolumeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T14:29:59.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChaseController.cs",
+              "DocumentMoniker": "D:\\LapTrinhGame\\Sunny Land\\Sunny Land\\Assets\\Scripts\\Enemy\\ChaseController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\ChaseController.cs",
+              "ToolTip": "D:\\LapTrinhGame\\Sunny Land\\Sunny Land\\Assets\\Scripts\\Enemy\\ChaseController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\ChaseController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T11:09:14.918Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
