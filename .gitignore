@@ -1,0 +1,45 @@
+# Tệp / thư mục Unity không cần thiết
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# Tệp dự án hệ điều hành không cần thiết
+.DS_Store
+*.swp
+*.swo
+
+# Tệp người dùng cụ thể
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# Thư mục build artifacts
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Tệp cấu hình IDE
+.vscode/
+.idea/
+*.iml
+
+# Unity auto-generated
+/Assets/AssetStoreTools*
+/Assets/AddressableAssetsData*
+
+# Tệp thư viện, module bên ngoài
+/Packages/com.unity.*
+/Packages/manifest.json
+/Packages/packages-lock.json
